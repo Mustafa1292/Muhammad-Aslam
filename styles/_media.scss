@@ -147,7 +147,11 @@
   }
   .about-stats {
     .progress-bars {
-      grid-template-columns: 1fr;
+      // grid-template-columns: 1fr;
+      display: none;
     }
+  }
+  .stat-title {
+    display: none;
   }
 }
